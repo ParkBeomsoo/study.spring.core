@@ -7,7 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import spring.start.discount.DiscountPolicy;
-import spring.start.discount.FixDiscountPoliy;
+import spring.start.discount.FixDiscountPolicy;
 import spring.start.discount.RateDiscountPolicy;
 
 import java.util.Map;
@@ -28,7 +28,7 @@ public class ApplicationContextExtendsFindTest {
 
         @Bean
         public DiscountPolicy fixDiscountPoliy() {
-            return new FixDiscountPoliy();
+            return new FixDiscountPolicy();
         }
     }
 
